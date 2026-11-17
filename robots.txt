@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mobile-comparison.vercel.app/sitemap.xml
