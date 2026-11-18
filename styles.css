@@ -9,6 +9,14 @@
 .sidebar a{color:#0b2545;text-decoration:none}.sidebar a:hover{text-decoration:underline}
 .sidebar input{width:100%;padding:8px;border:1px solid #ccc;border-radius:8px}
 .phone-list{max-height:420px;overflow:auto}
+.search-wrap{position:relative;max-width:640px;margin:14px 0}
+.search-wrap input{width:100%;padding:12px;border:1px solid #999;border-radius:8px;font-size:16px}
+.suggest{position:absolute;left:0;right:0;top:100%;background:#fff;border:1px solid #ccc;border-radius:0 0 10px 10px;box-shadow:0 8px 20px rgba(0,0,0,.15);z-index:20;max-height:320px;overflow:auto;display:none}
+.suggest.open{display:block}
+.suggest-item{display:flex;gap:10px;align-items:center;padding:8px 10px;cursor:pointer;text-align:left;width:100%;background:#fff;border:0;border-bottom:1px solid #eee;font-size:15px;color:#111}
+.suggest-item:hover{background:#eef4ff}
+.suggest-item img{width:36px;height:auto}
+.suggest-item small{color:#555;display:block}
 main{min-width:0}
 h1{font-size:30px;line-height:1.2} h2{margin-top:28px}
 .hero{background:#eef4ff;border-radius:12px;padding:20px}

@@ -1,6 +1,30 @@
 
 let PHONES=[];
-fetch('/data/phones.json').then(r=>r.json()).then(d=>{PHONES=d.phones; initCompare();});
+fetch('/data/phones.json').then(r=>r.json()).then(d=>{PHONES=d.phones; initCompare(); initSearch();});
+function phonePage(p){return '/phones/'+p.name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')+'.html';}
+function showSuggest(input, box, onPick){
+  const q=input.value.trim().toLowerCase();
+  if(q.length<2){box.classList.remove('open');box.innerHTML='';return;}
+  const matches=PHONES.filter(p=>p.name.toLowerCase().includes(q)||p.brand.toLowerCase().includes(q)).slice(0,8);
+  if(!matches.length){box.classList.remove('open');box.innerHTML='';return;}
+  box.innerHTML='';
+  matches.forEach(p=>{
+    const b=document.createElement('button'); b.type='button'; b.className='suggest-item';
+    b.innerHTML=`<img src="${p.image}" alt=""><span><strong>${p.name}</strong><small>${p.brand} · ${p.chipset||''}</small></span>`;
+    b.onclick=()=>{onPick(p); box.classList.remove('open'); box.innerHTML='';};
+    box.appendChild(b);
+  });
+  box.classList.add('open');
+}
+function initSearch(){
+  const main=document.getElementById('mainSearch'), mainBox=document.getElementById('mainSuggest');
+  if(main){ main.addEventListener('input',()=>showSuggest(main, mainBox, p=>{window.location.href=phonePage(p);}));
+    document.addEventListener('click',e=>{ if(!e.target.closest('.search-wrap')){mainBox.classList.remove('open');} }); }
+  [1,2,3].forEach(i=>{
+    const inp=document.getElementById('phone'+i), box=document.getElementById('suggest'+i);
+    if(inp&&box){ inp.addEventListener('input',()=>showSuggest(inp, box, p=>{inp.value=p.name;})); }
+  });
+}
 function initCompare(){
   const lists=document.querySelectorAll('.phone-pick');
   lists.forEach(sel=>{ PHONES.forEach(p=>{const o=document.createElement('option');o.value=p.name;o.textContent=p.name;sel.appendChild(o);}); });
