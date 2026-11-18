@@ -106,3 +106,24 @@ download and self-host them (hotlinking can break / is not ideal).
   after the Aug 2025 dataset and not in the target list). No Sony phones beyond Xperia 1 VI.
   Expanding to "every mobile" needs the same pipeline run over full brand lists
   (GSMArena brand pages paginate, e.g. Samsung has 29 pages) — or a paid API key.
+
+## 4. Batch 2 — 10 new phones added 18 Nov 2026 (40 → 50 phones)
+
+Same method as batch 1: specs read directly from each phone's GSMArena spec page
+(brand pages + pagination to find correct slugs), review summary = opening 1–2
+sentences of the linked GSMArena review, prices = US launch/list prices per storage
+tier verified by web search on 18 Nov 2026. All 10 new image URLs were verified
+live by GET (HTTP 200) on 18 Nov 2026.
+
+- Apple iPhone 16e — https://www.gsmarena.com/apple_iphone_16e-13395.php — prices $599/$699/$899 (128/256/512GB, 8GB RAM); review https://www.gsmarena.com/apple_iphone_16e-review-2805.php — price source https://www.the-tech-guide.com/iphone-16e-review/ — note: discontinued by Apple 2 Mar 2026, replaced by iPhone 17e
+- Samsung Galaxy S25 FE — https://www.gsmarena.com/samsung_galaxy_s25_fe_5g-14042.php — prices $649.99/$709.99 (128/256GB, 8GB RAM); review https://www.gsmarena.com/samsung_galaxy_s25_fe-review-2880.php
+- Samsung Galaxy A36 — https://www.gsmarena.com/samsung_galaxy_a36-13497.php — prices $399.99 (128GB, 6GB RAM, launch Mar 2025) / $474.99 (256GB, 8GB RAM, later Samsung US listing, not launch price); review https://www.gsmarena.com/samsung_galaxy_a36-review-2814.php
+- Samsung Galaxy Z Fold 7 — https://www.gsmarena.com/samsung_galaxy_z_fold7-13826.php — prices $1,999.99/$2,119.99/$2,419.99 (256/512GB 12GB RAM, 1TB 16GB RAM, launch Jul 2025); review https://www.gsmarena.com/samsung_galaxy_z_fold7-review-2856.php — note: Samsung later raised the 512GB/1TB US prices by $80 (Apr 2026); launch prices shown
+- Google Pixel 9a — https://www.gsmarena.com/google_pixel_9a-13478.php — prices $499/$599 (128/256GB, 8GB RAM); review https://www.gsmarena.com/google_pixel_9a-review-2825.php
+- OnePlus 13R — https://www.gsmarena.com/oneplus_13r-13548.php — price $599.99 (256GB, 12GB RAM — the only US configuration); review https://www.gsmarena.com/oneplus_13r-review-2778.php
+- Xiaomi Redmi Note 14 Pro — https://www.gsmarena.com/xiaomi_redmi_note_14_pro-13355.php — price unverified (not officially sold in the US; Xiaomi Global suggested USD 399 for the global Pro 5G variant, but the GSMArena page used here is the Sep 2024 model, announced 26 Sep 2024, Dimensity 7300 Ultra / 5500 mAh — do not present $399 as its US launch price) — **no GSMArena expert review exists for this model** (spec page links only to the user-opinions page), so `review` is null
+- Motorola Edge 60 — https://www.gsmarena.com/motorola_edge_60-13779.php — price unverified (not officially sold in the US; launch price €429 in Europe); review https://www.gsmarena.com/motorola_edge_60-review-2831.php — battery is market-dependent (5200 mAh global / 5500 mAh China, India); the global 5200 mAh figure is recorded
+- Nothing Phone 3a — https://www.gsmarena.com/nothing_phone_(3a)-13672.php — price $379 (256GB, 12GB RAM only, sold in the US only through Nothing's Beta Program); review https://www.gsmarena.com/nothing_phone_3a-review-2811.php — note: the first brand-page lookup missed this phone because the scraper's URL regex did not allow parentheses in `nothing_phone_(3a)-13672.php`; fetched by direct verified URL instead
+- Vivo X200 FE — https://www.gsmarena.com/vivo_x200_fe_5g-13847.php — price unverified (no confirmed official US retail launch; India from ₹54,999, Europe about €799; US listings conflict $537–$759 and are imports/estimates); review https://www.gsmarena.com/vivo_x200_fe-review-2850.php — battery is market-dependent (6500 mAh global / 5300 mAh Austria only); the global 6500 mAh figure is recorded
+
+**Batch 2 totals: 10 of 10 added, 0 skipped. 7 of 10 have verified prices (16e, S25 FE, A36, Z Fold 7, Pixel 9a, 13R, Phone 3a); 3 have empty `prices[]` with a note (Redmi Note 14 Pro, Edge 60, X200 FE). 9 of 10 have a GSMArena review; Redmi Note 14 Pro has none. Overall dataset is now 50 phones, 12 brands; 31 of 50 have verified prices, 49 of 50 have a review. iPhone 16e display refresh rate is null (GSMArena does not state Hz in its Display Type field for this phone — 60 Hz was not invented).**

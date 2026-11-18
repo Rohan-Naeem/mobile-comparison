@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated": "2026-11-17",
-    "source": "GSMArena spec pages (gsmarena.com) scraped 17 Nov 2026 + web-search-verified US launch prices",
-    "phones_count": 40,
+    "generated": "2026-11-18",
+    "source": "GSMArena spec pages (gsmarena.com) scraped 17 Nov 2026 (40 phones) + 18 Nov 2026 (10 new phones) + web-search-verified US launch prices",
+    "phones_count": 50,
     "api_notes": "No free phone-spec API worked from this environment: azharimm/phone-specs-api (api-mobilespecs.azharimm.dev/v2) returned empty for /, /v2/brands and /v2/apple_iphone_14-11861; FonoAPI token page and getdevice returned empty (and its database was last updated 29 Mar 2019); the Railway demo phone-specs-api-production.up.railway.app returned 404 'Application not found'; thechandrakant15/mobile-specs-api and Sanjeevu-Tarun/gsmarena-dxomark-mobile-specs-api have NO public live instance (self-host only); Smartphone DB / Mobile Phone Specs Database on RapidAPI and MobileAPI.dev / phonespecapi.com all need an API key and have paid/free-tier limits (e.g. 30 requests/month free). So specs were taken directly from GSMArena spec pages instead. See DATA_SOURCES.md. Note: scraping GSMArena violates its Terms of Service — use this dataset as a seed and verify/attribute, do not present it as an official feed.",
-    "price_policy": "prices[] holds US launch/list prices per storage tier ONLY where verified by web search on 17 Nov 2026 (see price_source_url per phone). Empty prices[] means unverified — never invent a price. gsmarena_price_listed is GSMArena's current retail snapshot on the spec page, NOT a launch price.",
+    "price_policy": "prices[] holds US launch/list prices per storage tier ONLY where verified by web search on 17 Nov 2026 (first 40 phones) or 18 Nov 2026 (10 new phones) (see price_source_url per phone). Empty prices[] means unverified — never invent a price. gsmarena_price_listed is GSMArena's current retail snapshot on the spec page, NOT a launch price.",
     "review_policy": "review.summary is the opening 1-2 sentences of the linked GSMArena review, copied from that review page. No star rating or score is invented — GSMArena reviews do not give a single numeric score."
   },
   "phones": [
@@ -460,6 +460,90 @@
       },
       "specs_source_url": "https://www.gsmarena.com/apple_iphone_16_pro_max-13123.php",
       "verified_at": "2026-11-17"
+    },
+    {
+      "id": "apple_iphone_16e-13395",
+      "slug": "apple_iphone_16e-13395",
+      "brand": "Apple",
+      "name": "Apple iPhone 16e",
+      "release": {
+        "announced": "2025, February 19",
+        "released": "Available. Released 2025, February 28",
+        "release_year": 2025,
+        "release_month": "February"
+      },
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16e.jpg",
+      "display": {
+        "size_inches": 6.1,
+        "size_raw": "6.1 inches, 90.2 cm 2 (~86.0% screen-to-body ratio)",
+        "type": "Super Retina XDR OLED, HDR10, 800 nits (HBM), 1200 nits (peak)",
+        "refresh_rate_hz": null,
+        "resolution": "1170 x 2532 pixels, 19.5:9 ratio (~460 ppi density)",
+        "protection": "Ceramic Shield glass"
+      },
+      "chipset": "Apple A18 (3 nm)",
+      "cpu": "Hexa-core (2x4.04 GHz + 4x2.20 GHz)",
+      "gpu": "Apple GPU (4-core graphics)",
+      "os": "iOS 18.3.1, upgradable to iOS 27.2",
+      "ram_options_gb": [
+        8
+      ],
+      "storage_options_gb": [
+        128,
+        256,
+        512
+      ],
+      "memory_variants": [
+        {
+          "storage_gb": 128,
+          "ram_gb": 8
+        },
+        {
+          "storage_gb": 256,
+          "ram_gb": 8
+        },
+        {
+          "storage_gb": 512,
+          "ram_gb": 8
+        }
+      ],
+      "memory_raw": "128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM",
+      "battery_mah": 4005,
+      "battery_raw": "Li-Ion 4005 mAh",
+      "charging": "Wired, 50% in 30 min 7.5W wireless (Qi)",
+      "main_camera": "48 MP, f/1.6, 26mm (wide), 1/2.55\", 0.7µm, PDAF, OIS",
+      "main_camera_setup": "Single",
+      "selfie_camera": "12 MP, f/1.9, 23mm (wide), 1/3.6\", 1.0µm, PDAF SL 3D, (depth/biometrics sensor)",
+      "weight_g": 167,
+      "weight_raw": "167 g (5.89 oz)",
+      "dimensions": "146.7 x 71.5 x 7.8 mm (5.78 x 2.81 x 0.31 in)",
+      "prices": [
+        {
+          "storage_gb": 128,
+          "ram_gb": 8,
+          "price_usd": 599
+        },
+        {
+          "storage_gb": 256,
+          "ram_gb": 8,
+          "price_usd": 699
+        },
+        {
+          "storage_gb": 512,
+          "ram_gb": 8,
+          "price_usd": 899
+        }
+      ],
+      "prices_note": "US launch prices, Apple, Feb 2025 ($599/$699/$899). Discontinued by Apple 2 Mar 2026, replaced by iPhone 17e.",
+      "price_source_url": "https://www.the-tech-guide.com/iphone-16e-review/",
+      "gsmarena_price_listed": "$ 370.10 / £ 389.00 / € 430.00 / ₹ 69,900",
+      "review": {
+        "source": "GSMArena",
+        "url": "https://www.gsmarena.com/apple_iphone_16e-review-2805.php",
+        "summary": "The iPhone SE is dead; long live the iPhone E! Apple has replaced the more affordable SE line with the new iPhone 16e - a controversial choice as this new device is neither as compact nor as affordable."
+      },
+      "specs_source_url": "https://www.gsmarena.com/apple_iphone_16e-13395.php",
+      "verified_at": "2026-11-18"
     },
     {
       "id": "apple_iphone_17-14050",
@@ -1183,6 +1267,80 @@
       "verified_at": "2026-11-17"
     },
     {
+      "id": "google_pixel_9a-13478",
+      "slug": "google_pixel_9a-13478",
+      "brand": "Google",
+      "name": "Google Pixel 9a",
+      "release": {
+        "announced": "2025, March 19",
+        "released": "Available. Released 2025, April 10",
+        "release_year": 2025,
+        "release_month": "April"
+      },
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-9a.jpg",
+      "display": {
+        "size_inches": 6.3,
+        "size_raw": "6.3 inches, 94.7 cm 2 (~83.5% screen-to-body ratio)",
+        "type": "P-OLED, HDR, 120Hz, 1800 nits (HBM), 2700 nits (peak)",
+        "refresh_rate_hz": 120,
+        "resolution": "1080 x 2424 pixels, 20:9 ratio (~422 ppi density)",
+        "protection": "Corning Gorilla Glass 3"
+      },
+      "chipset": "Google Tensor G4 (4 nm)",
+      "cpu": "Octa-core (1x3.1 GHz Cortex-X4 & 3x2.6 GHz Cortex-A720 & 4x1.9 GHz Cortex-A520)",
+      "gpu": "Mali-G715 MP7",
+      "os": "Android 15, upgradable to Android 17, up to 7 major OS updates",
+      "ram_options_gb": [
+        8
+      ],
+      "storage_options_gb": [
+        128,
+        256
+      ],
+      "memory_variants": [
+        {
+          "storage_gb": 128,
+          "ram_gb": 8
+        },
+        {
+          "storage_gb": 256,
+          "ram_gb": 8
+        }
+      ],
+      "memory_raw": "128GB 8GB RAM, 256GB 8GB RAM",
+      "battery_mah": 5100,
+      "battery_raw": "Li-Po 5100 mAh",
+      "charging": "23W wired, PD3.0 7.5W wireless Bypass charging",
+      "main_camera": "48 MP, f/1.7, 25mm (wide), 1/2.0\", 0.8µm, dual pixel PDAF, OIS 13 MP, f/2.2, 120˚ (ultrawide), 1/3.1\", 1.12µm",
+      "main_camera_setup": "Dual",
+      "selfie_camera": "13 MP, f/2.2, 20mm (ultrawide), 1/3.1\", 1.12µm",
+      "weight_g": 186,
+      "weight_raw": "186 g (6.56 oz)",
+      "dimensions": "154.7 x 73.3 x 8.9 mm (6.09 x 2.89 x 0.35 in)",
+      "prices": [
+        {
+          "storage_gb": 128,
+          "ram_gb": 8,
+          "price_usd": 499
+        },
+        {
+          "storage_gb": 256,
+          "ram_gb": 8,
+          "price_usd": 599
+        }
+      ],
+      "prices_note": "US launch prices, Google, Apr 2025 (announced 19 Mar 2025).",
+      "price_source_url": "https://rottenwifi.com/google-pixel-9a-499-launch-price-tensor-g4-and-what-changed/",
+      "gsmarena_price_listed": "$ 299.00 / £ 282.00 / € 359.90 / ₹ 49,999",
+      "review": {
+        "source": "GSMArena",
+        "url": "https://www.gsmarena.com/google_pixel_9a-review-2825.php",
+        "summary": "Google's \"A-series\" of devices remains the most affordable entry point into the Pixel ecosystem on a current generation device. The search giant didn't really introduce any massive changes to the formula this year, but there are still changes to consider."
+      },
+      "specs_source_url": "https://www.gsmarena.com/google_pixel_9a-13478.php",
+      "verified_at": "2026-11-18"
+    },
+    {
       "id": "huawei_pura_70_ultra-12940",
       "slug": "huawei_pura_70_ultra-12940",
       "brand": "Huawei",
@@ -1393,6 +1551,78 @@
       "verified_at": "2026-11-17"
     },
     {
+      "id": "motorola_edge_60-13779",
+      "slug": "motorola_edge_60-13779",
+      "brand": "Motorola",
+      "name": "Motorola Edge 60",
+      "release": {
+        "announced": "2025, April 24",
+        "released": "Available. Released 2025, April 25",
+        "release_year": 2025,
+        "release_month": "April"
+      },
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-60.jpg",
+      "display": {
+        "size_inches": 6.67,
+        "size_raw": "6.67 inches, 107.4 cm 2 (~91.1% screen-to-body ratio)",
+        "type": "P-OLED, 1B colors, 120Hz, 720Hz PWM, HDR10+, 4500 nits peak",
+        "refresh_rate_hz": 120,
+        "resolution": "1220 x 2712 pixels, 20:9 ratio (~446 ppi density)",
+        "protection": "Corning Gorilla Glass 7i"
+      },
+      "chipset": "Mediatek Dimensity 7300 (4 nm) - Global Mediatek Dimensity 7400 (4 nm) - India",
+      "cpu": "Octa-core (4x2.5 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55) - Global Octa-core (4x2.6 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55) - India",
+      "gpu": "Mali-G615 MC2",
+      "os": "Android 15, up to 3 major OS updates",
+      "ram_options_gb": [
+        8,
+        12
+      ],
+      "storage_options_gb": [
+        256,
+        512
+      ],
+      "memory_variants": [
+        {
+          "storage_gb": 256,
+          "ram_gb": 8
+        },
+        {
+          "storage_gb": 256,
+          "ram_gb": 12
+        },
+        {
+          "storage_gb": 512,
+          "ram_gb": 8
+        },
+        {
+          "storage_gb": 512,
+          "ram_gb": 12
+        }
+      ],
+      "memory_raw": "256GB 8GB RAM, 256GB 12GB RAM, 512GB 8GB RAM, 512GB 12GB RAM",
+      "battery_mah": 5200,
+      "battery_raw": "Market-dependent versions: · 5200 mAh (Global) · 5500 mAh (China, India)",
+      "charging": "68W wired",
+      "main_camera": "50 MP, f/1.8, 24mm (wide), 1/1.56\", 1.0µm, multi-directional PDAF, OIS 10 MP, f2.0, 73mm (telephoto), 1/3.94\", 1.0µm, PDAF, 3x optical zoom, OIS 50 MP, f/2.0, 12mm, 122˚ (ultrawide), 1/2.76\", 0.64µm, PDAF",
+      "main_camera_setup": "Triple",
+      "selfie_camera": "50 MP, f/2.0, (wide), 0.64µm",
+      "weight_g": 179,
+      "weight_raw": "179 g or 181 g (6.31 oz)",
+      "dimensions": "161.2 x 73.1 x 7.9 mm or 8.2 mm",
+      "prices": [],
+      "prices_note": "Not officially sold in the US; no verified USD launch price. Launch price was €429 in Europe.",
+      "price_source_url": null,
+      "gsmarena_price_listed": "$ 376.20 / £ 299.00 / € 349.99",
+      "review": {
+        "source": "GSMArena",
+        "url": "https://www.gsmarena.com/motorola_edge_60-review-2831.php",
+        "summary": "The Motorola Edge 60 might just be the most balanced phone of the new series with a well-rounded specs sheet and attractive pricing. It offers a standout design, superb display, versatile camera kit, large battery and the most recent Android OS with a ton of AI smarts."
+      },
+      "specs_source_url": "https://www.gsmarena.com/motorola_edge_60-13779.php",
+      "verified_at": "2026-11-18"
+    },
+    {
       "id": "nothing_phone_(2)-12386",
       "slug": "nothing_phone_(2)-12386",
       "brand": "Nothing",
@@ -1535,6 +1765,80 @@
       },
       "specs_source_url": "https://www.gsmarena.com/nothing_phone_(3)_5g-13969.php",
       "verified_at": "2026-11-17"
+    },
+    {
+      "id": "nothing_phone_(3a)-13672",
+      "slug": "nothing_phone_(3a)-13672",
+      "brand": "Nothing",
+      "name": "Nothing Phone 3a",
+      "release": {
+        "announced": "2025, March 04",
+        "released": "Available. Released 2025, March 11",
+        "release_year": 2025,
+        "release_month": "March"
+      },
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-3a-new.jpg",
+      "display": {
+        "size_inches": 6.77,
+        "size_raw": "6.77 inches, 111.5 cm 2 (~88.0% screen-to-body ratio)",
+        "type": "AMOLED, 1B colors, 120Hz, 2160Hz PWM, HDR10+, 800 nits (typ), 1300 nits (HBM), 3000 nits (peak)",
+        "refresh_rate_hz": 120,
+        "resolution": "1080 x 2392 pixels (~387 ppi density)",
+        "protection": "Panda Glass"
+      },
+      "chipset": "Qualcomm SM7635 Snapdragon 7s Gen 3 (4 nm)",
+      "cpu": "Octa-core (1x2.5 GHz Cortex-A720 & 3x2.4 GHz Cortex-A720 & 4x1.8 GHz Cortex-A520)",
+      "gpu": "Adreno 810",
+      "os": "Android 15, upgradable to Android 17, Nothing OS 5, up to 3 major OS updates",
+      "ram_options_gb": [
+        8,
+        12
+      ],
+      "storage_options_gb": [
+        128,
+        256
+      ],
+      "memory_variants": [
+        {
+          "storage_gb": 128,
+          "ram_gb": 8
+        },
+        {
+          "storage_gb": 256,
+          "ram_gb": 8
+        },
+        {
+          "storage_gb": 256,
+          "ram_gb": 12
+        }
+      ],
+      "memory_raw": "128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM",
+      "battery_mah": 5000,
+      "battery_raw": "5000 mAh",
+      "charging": "50W wired, 50% in 19 min, 100% in 56 min",
+      "main_camera": "50 MP, f/1.9, 24mm (wide), 1/1.57\", 1.0µm, dual pixel PDAF, OIS 50 MP, f/2.0, 50mm (telephoto), 1/2.74\", 0.64µm, PDAF (25cm - ∞), 2x optical zoom 8 MP, f/2.2, 15mm, 120˚ (ultrawide), 1/4.0\", 1.12µm",
+      "main_camera_setup": "Triple",
+      "selfie_camera": "32 MP, f/2.2, 22mm (wide), 1/3.44\"",
+      "weight_g": 201,
+      "weight_raw": "201 g (7.09 oz)",
+      "dimensions": "163.5 x 77.5 x 8.4 mm (6.44 x 3.05 x 0.33 in)",
+      "prices": [
+        {
+          "storage_gb": 256,
+          "ram_gb": 12,
+          "price_usd": 379
+        }
+      ],
+      "prices_note": "US price $379 for 12GB/256GB, sold in the US only through Nothing's Beta Program (Mar 2025). Europe: €329 for 8GB/128GB.",
+      "price_source_url": "https://phoneranked.com/phones/nothing/phone-3a/",
+      "gsmarena_price_listed": "₹ 33,980",
+      "review": {
+        "source": "GSMArena",
+        "url": "https://www.gsmarena.com/nothing_phone_3a-review-2811.php",
+        "summary": "Hot on the heels of our Nothing Phone (3a) Pro review, it's time we turn our attention to its sibling, the Nothing Phone (3a). As already mentioned, the two phones are very similar, basically only differing in their camera setup."
+      },
+      "specs_source_url": "https://www.gsmarena.com/nothing_phone_(3a)-13672.php",
+      "verified_at": "2026-11-18"
     },
     {
       "id": "oneplus_12-12725",
@@ -1698,6 +2002,76 @@
       },
       "specs_source_url": "https://www.gsmarena.com/oneplus_13-13477.php",
       "verified_at": "2026-11-17"
+    },
+    {
+      "id": "oneplus_13r-13548",
+      "slug": "oneplus_13r-13548",
+      "brand": "OnePlus",
+      "name": "OnePlus 13R",
+      "release": {
+        "announced": "2025, January 07",
+        "released": "Available. Released 2025, January 14",
+        "release_year": 2025,
+        "release_month": "January"
+      },
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-13r.jpg",
+      "display": {
+        "size_inches": 6.78,
+        "size_raw": "6.78 inches, 111.7 cm 2 (~91.2% screen-to-body ratio)",
+        "type": "LTPO 4.1 AMOLED, 1B colors, 120Hz, 2160Hz PWM, HDR10+, Dolby Vision, HDR Vivid, 1600 nits (HBM), 4500 nits (peak)",
+        "refresh_rate_hz": 120,
+        "resolution": "1264 x 2780 pixels (~450 ppi density)",
+        "protection": "Corning Gorilla Glass 7i"
+      },
+      "chipset": "Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)",
+      "cpu": "Octa-core (1x3.3 GHz Cortex-X4 & 3x3.2 GHz Cortex-A720 & 2x3.0 GHz Cortex-A720 & 2x2.3 GHz Cortex-A520)",
+      "gpu": "Adreno 750",
+      "os": "Android 15, up to 4 major OS updates, OxygenOS 15",
+      "ram_options_gb": [
+        12,
+        16
+      ],
+      "storage_options_gb": [
+        256,
+        512
+      ],
+      "memory_variants": [
+        {
+          "storage_gb": 256,
+          "ram_gb": 12
+        },
+        {
+          "storage_gb": 512,
+          "ram_gb": 16
+        }
+      ],
+      "memory_raw": "256GB 12GB RAM, 512GB 16GB RAM",
+      "battery_mah": 6000,
+      "battery_raw": "Li-Ion 6000 mAh",
+      "charging": "80W wired, 50% in 20 min, 100% in 52/54 min",
+      "main_camera": "50 MP, f/1.8, 24mm (wide), 1/1.56\", 1.0µm, multi-directional PDAF, OIS 50 MP, f/2.0, 47mm (telephoto), 1/2.75\", 0.64µm, PDAF, 2x optical zoom 8 MP, f/2.2, 16mm, 112˚ (ultrawide), 1/4.0\", 1.12µm",
+      "main_camera_setup": "Triple",
+      "selfie_camera": "16 MP, f/2.4, 26mm (wide), 1/3.1\", 1.0µm",
+      "weight_g": 206,
+      "weight_raw": "206 g (7.27 oz)",
+      "dimensions": "161.7 x 75.8 x 8 mm (6.37 x 2.98 x 0.31 in)",
+      "prices": [
+        {
+          "storage_gb": 256,
+          "ram_gb": 12,
+          "price_usd": 599.99
+        }
+      ],
+      "prices_note": "US launch price for the single US configuration, 12GB/256GB, Jan 2025. 512GB/16GB exists in other markets, no US price.",
+      "price_source_url": "https://sekin.in/oneplus-13r-review-great-phone-excellent-price/",
+      "gsmarena_price_listed": "$ 540.00 / £ 693.99 / € 680.30",
+      "review": {
+        "source": "GSMArena",
+        "url": "https://www.gsmarena.com/oneplus_13r-review-2778.php",
+        "summary": "The OnePlus 13R is a direct successor to the OnePlus 12R from last year, and it's a toned-down version of the flagship, the OnePlus 13. It retains certain high-end features while cutting a few corners, and as a result, it comes with a more palatable price tag."
+      },
+      "specs_source_url": "https://www.gsmarena.com/oneplus_13r-13548.php",
+      "verified_at": "2026-11-18"
     },
     {
       "id": "oppo_find_x8-13407",
@@ -1998,6 +2372,94 @@
       },
       "specs_source_url": "https://www.gsmarena.com/realme_gt_7_pro-13470.php",
       "verified_at": "2026-11-17"
+    },
+    {
+      "id": "samsung_galaxy_a36-13497",
+      "slug": "samsung_galaxy_a36-13497",
+      "brand": "Samsung",
+      "name": "Samsung Galaxy A36",
+      "release": {
+        "announced": "2025, March 02",
+        "released": "Available. Released 2025, March 10",
+        "release_year": 2025,
+        "release_month": "March"
+      },
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a36.jpg",
+      "display": {
+        "size_inches": 6.7,
+        "size_raw": "6.7 inches, 110.2 cm 2 (~86.5% screen-to-body ratio)",
+        "type": "Super AMOLED, 120Hz, 1200 nits (HBM), 1900 nits (peak)",
+        "refresh_rate_hz": 120,
+        "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~385 ppi density)",
+        "protection": "Corning Gorilla Glass Victus+"
+      },
+      "chipset": "Qualcomm SM6475-AB Snapdragon 6 Gen 3 (4 nm)",
+      "cpu": "Octa-core (4x2.4 GHz Cortex-A78 & 4x1.8 GHz Cortex-A55)",
+      "gpu": "Adreno 710",
+      "os": "Android 15, upgradable to Android 17, up to 6 major OS updates, One UI 9",
+      "ram_options_gb": [
+        6,
+        8,
+        12
+      ],
+      "storage_options_gb": [
+        128,
+        256
+      ],
+      "memory_variants": [
+        {
+          "storage_gb": 128,
+          "ram_gb": 6
+        },
+        {
+          "storage_gb": 128,
+          "ram_gb": 8
+        },
+        {
+          "storage_gb": 256,
+          "ram_gb": 6
+        },
+        {
+          "storage_gb": 256,
+          "ram_gb": 8
+        },
+        {
+          "storage_gb": 256,
+          "ram_gb": 12
+        }
+      ],
+      "memory_raw": "128GB 6GB RAM, 128GB 8GB RAM, 256GB 6GB RAM, 256GB 8GB RAM, 256GB 12GB RAM",
+      "battery_mah": 5000,
+      "battery_raw": "5000 mAh",
+      "charging": "45W wired, 66% in 30 min, 100% in 68 min",
+      "main_camera": "50 MP, f/1.8, (wide), 1/1.96\", 0.8µm, PDAF, OIS 8 MP, f/2.2, 123˚, (ultrawide), 1/4.0\", 1.12µm 5 MP, f/2.4, (macro)",
+      "main_camera_setup": "Triple",
+      "selfie_camera": "12 MP, f/2.2, (wide)",
+      "weight_g": 195,
+      "weight_raw": "195 g (6.88 oz)",
+      "dimensions": "162.9 x 78.2 x 7.4 mm (6.41 x 3.08 x 0.29 in)",
+      "prices": [
+        {
+          "storage_gb": 128,
+          "ram_gb": 6,
+          "price_usd": 399.99
+        },
+        {
+          "storage_gb": 256,
+          "ram_gb": 8,
+          "price_usd": 474.99
+        }
+      ],
+      "prices_note": "US launch price $399.99 for 128GB (Mar 2025, Samsung Newsroom). 256GB at $474.99 is a later Samsung US listing, not the launch price.",
+      "price_source_url": "https://rottenwifi.com/samsung-galaxy-a36-release-date-price-specs-rumours-vs-reality/",
+      "gsmarena_price_listed": "$ 210.01 / £ 201.36 / € 315.99 / ₹ 30,499",
+      "review": {
+        "source": "GSMArena",
+        "url": "https://www.gsmarena.com/samsung_galaxy_a36-review-2814.php",
+        "summary": "The next generation Galaxy A models are here and there is a midranger for everybody! Today we meet the most balanced of the Samsung new midrangers, the Galaxy A36."
+      },
+      "specs_source_url": "https://www.gsmarena.com/samsung_galaxy_a36-13497.php",
+      "verified_at": "2026-11-18"
     },
     {
       "id": "samsung_galaxy_a55-12824",
@@ -2545,6 +3007,85 @@
       "verified_at": "2026-11-17"
     },
     {
+      "id": "samsung_galaxy_s25_fe_5g-14042",
+      "slug": "samsung_galaxy_s25_fe_5g-14042",
+      "brand": "Samsung",
+      "name": "Samsung Galaxy S25 FE",
+      "release": {
+        "announced": "2025, September 04",
+        "released": "Available. Released 2025, September 04",
+        "release_year": 2025,
+        "release_month": "September"
+      },
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s25-fe.jpg",
+      "display": {
+        "size_inches": 6.7,
+        "size_raw": "6.7 inches, 110.2 cm 2 (~89.2% screen-to-body ratio)",
+        "type": "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)",
+        "refresh_rate_hz": 120,
+        "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~385 ppi density)",
+        "protection": "Corning Gorilla Glass Victus+"
+      },
+      "chipset": "Exynos 2400 (4 nm)",
+      "cpu": "10-core (1x3.2GHz Cortex-X4 & 2x2.9GHz Cortex-A720 & 3x2.6GHz Cortex-A720 & 4x1.95GHz Cortex-A520)",
+      "gpu": "Xclipse 940",
+      "os": "Android 16, upgradable to Android 17, up to 7 major OS updates, One UI 9",
+      "ram_options_gb": [
+        8
+      ],
+      "storage_options_gb": [
+        128,
+        256,
+        512
+      ],
+      "memory_variants": [
+        {
+          "storage_gb": 128,
+          "ram_gb": 8
+        },
+        {
+          "storage_gb": 256,
+          "ram_gb": 8
+        },
+        {
+          "storage_gb": 512,
+          "ram_gb": 8
+        }
+      ],
+      "memory_raw": "128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM",
+      "battery_mah": 4900,
+      "battery_raw": "4900 mAh",
+      "charging": "45W wired, PD, QC2, 65% in 30 min 15W wireless, Qi2 compatible Reverse wireless",
+      "main_camera": "50 MP, f/1.8, 24mm (wide), 1/1.57\", 1.0µm, dual pixel PDAF, OIS 8 MP, f/2.4, 75mm (telephoto), 1/4.4\", 1.0µm, PDAF, OIS, 3x optical zoom 12 MP, f/2.2, 13mm, 123˚ (ultrawide), 1/3.0\", 1.12µm",
+      "main_camera_setup": "Triple",
+      "selfie_camera": "12 MP, f/2.2, 26mm (wide), 1/3.2\", 1.12µm",
+      "weight_g": 190,
+      "weight_raw": "190 g (6.70 oz)",
+      "dimensions": "161.3 x 76.6 x 7.4 mm (6.35 x 3.02 x 0.29 in)",
+      "prices": [
+        {
+          "storage_gb": 128,
+          "ram_gb": 8,
+          "price_usd": 649.99
+        },
+        {
+          "storage_gb": 256,
+          "ram_gb": 8,
+          "price_usd": 709.99
+        }
+      ],
+      "prices_note": "Samsung US MSRP, Sep 2025 (announced 4 Sep 2025). 512GB exists in some markets, no verified US price.",
+      "price_source_url": "https://rottenwifi.com/samsung-galaxy-s25-fe-launched-sooner-than-expected-but-the-september-19-rumor-was-only-partly-right/",
+      "gsmarena_price_listed": "$ 289.95 / £ 340.00 / € 488.99 / ₹ 46,899",
+      "review": {
+        "source": "GSMArena",
+        "url": "https://www.gsmarena.com/samsung_galaxy_s25_fe-review-2880.php",
+        "summary": "Samsung's 2025 Fan Edition smartphone is here, aiming to deliver a more affordable alternative to the Galaxy S series while retaining much of the flagship experience. The Galaxy S25 FE may seem very similar to its predecessor, but this year's model moves a step closer to the Galaxy S25+ in terms of hardware and features."
+      },
+      "specs_source_url": "https://www.gsmarena.com/samsung_galaxy_s25_fe_5g-14042.php",
+      "verified_at": "2026-11-18"
+    },
+    {
       "id": "samsung_galaxy_s25_ultra-13322",
       "slug": "samsung_galaxy_s25_ultra-13322",
       "brand": "Samsung",
@@ -2632,6 +3173,95 @@
       },
       "specs_source_url": "https://www.gsmarena.com/samsung_galaxy_s25_ultra-13322.php",
       "verified_at": "2026-11-17"
+    },
+    {
+      "id": "samsung_galaxy_z_fold7-13826",
+      "slug": "samsung_galaxy_z_fold7-13826",
+      "brand": "Samsung",
+      "name": "Samsung Galaxy Z Fold 7",
+      "release": {
+        "announced": "2025, July 09",
+        "released": "Available. Released 2025, July 25",
+        "release_year": 2025,
+        "release_month": "July"
+      },
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold7.jpg",
+      "display": {
+        "size_inches": 8.0,
+        "size_raw": "8.0 inches, 204.2 cm 2 (~90.0% screen-to-body ratio)",
+        "type": "Foldable Dynamic LTPO AMOLED 2X, 120Hz, HDR10+, 2600 nits (peak)",
+        "refresh_rate_hz": 120,
+        "resolution": "1968 x 2184 pixels (~368 ppi density)",
+        "protection": null
+      },
+      "chipset": "Qualcomm SM8750-AC Snapdragon 8 Elite (3 nm)",
+      "cpu": "Octa-core (2x4.47 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M)",
+      "gpu": "Adreno 830 (1200 MHz)",
+      "os": "Android 16, upgradable to Android 17, up to 7 major OS updates, One UI 9",
+      "ram_options_gb": [
+        12,
+        16
+      ],
+      "storage_options_gb": [
+        256,
+        512,
+        1024
+      ],
+      "memory_variants": [
+        {
+          "storage_gb": 256,
+          "ram_gb": 12
+        },
+        {
+          "storage_gb": 512,
+          "ram_gb": 12
+        },
+        {
+          "storage_gb": 1024,
+          "ram_gb": 12
+        },
+        {
+          "storage_gb": 1024,
+          "ram_gb": 16
+        }
+      ],
+      "memory_raw": "256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM, 1TB 16GB RAM",
+      "battery_mah": 4400,
+      "battery_raw": "Li-Po 4400 mAh",
+      "charging": "25W wired, QC2.0, 50% in 30 min 15W wireless 4.5W reverse wireless",
+      "main_camera": "200 MP, f/1.7, 24mm (wide), 1/1.3\", 0.6µm, multi-directional PDAF, OIS 10 MP, f/2.4, 67mm (telephoto), 1/3.94\", 1.0µm, PDAF, OIS, 3x optical zoom 12 MP, f/2.2, 13mm, 120˚ (ultrawide), 1/2.55\", 1.4µm, dual pixel PDAF",
+      "main_camera_setup": "Triple",
+      "selfie_camera": "10 MP, f/2.2, 18mm (ultrawide), 1/3.0\", 1.12µm Cover camera: 10 MP, f/2.2, 24mm (wide), 1/3.0\", 1.12µm",
+      "weight_g": 215,
+      "weight_raw": "215 g (7.58 oz)",
+      "dimensions": "Unfolded: 158.4 x 143.2 x 4.2 mm Folded: 158.4 x 72.8 x 8.9 mm",
+      "prices": [
+        {
+          "storage_gb": 256,
+          "ram_gb": 12,
+          "price_usd": 1999.99
+        },
+        {
+          "storage_gb": 512,
+          "ram_gb": 12,
+          "price_usd": 2119.99
+        },
+        {
+          "storage_gb": 1024,
+          "ram_gb": 16,
+          "price_usd": 2419.99
+        }
+      ],
+      "prices_note": "Samsung US launch prices, Jul 2025. Note: Samsung later raised the 512GB/1TB US prices by $80 (Apr 2026) — launch prices shown here.",
+      "price_source_url": "https://techfare.com/phones/Samsung-Galaxy-Z-Fold7",
+      "gsmarena_price_listed": "$ 824.50 / £ 855.95 / € 890.99 / ₹ 128,999",
+      "review": {
+        "source": "GSMArena",
+        "url": "https://www.gsmarena.com/samsung_galaxy_z_fold7-review-2856.php",
+        "summary": "After a couple of years of stagnation, Samsung is back on track. This year's Galaxy Z Fold7 offers real upgrades and improvements in key areas that were lacking in the previous generations."
+      },
+      "specs_source_url": "https://www.gsmarena.com/samsung_galaxy_z_fold7-13826.php",
+      "verified_at": "2026-11-18"
     },
     {
       "id": "sony_xperia_1_vi-13003",
@@ -2768,6 +3398,74 @@
       },
       "specs_source_url": "https://www.gsmarena.com/vivo_x200-13433.php",
       "verified_at": "2026-11-17"
+    },
+    {
+      "id": "vivo_x200_fe_5g-13847",
+      "slug": "vivo_x200_fe_5g-13847",
+      "brand": "Vivo",
+      "name": "Vivo X200 FE",
+      "release": {
+        "announced": "2025, June 23",
+        "released": "Available. Released 2025, July 05",
+        "release_year": 2025,
+        "release_month": "July"
+      },
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x200-fe.jpg",
+      "display": {
+        "size_inches": 6.31,
+        "size_raw": "6.31 inches, 97.6 cm 2 (~90.2% screen-to-body ratio)",
+        "type": "LTPO AMOLED, 1B colors, 120Hz, 2160Hz PWM, HDR10+, 4500 / 5000 nits (peak)",
+        "refresh_rate_hz": 120,
+        "resolution": "1216 x 2640 pixels, 19.5:9 ratio (~461 ppi density)",
+        "protection": "Schott Xensation Core or Shield Glass"
+      },
+      "chipset": "Mediatek Dimensity 9300+ (4 nm)",
+      "cpu": "Octa-core (1x3.4 GHz Cortex-X4 & 3x2.85 GHz Cortex-X4 & 4x2.0 GHz Cortex-A720)",
+      "gpu": "Immortalis-G720 MC12",
+      "os": "Android 15, up to 4 major OS updates, Funtouch 15",
+      "ram_options_gb": [
+        12,
+        16
+      ],
+      "storage_options_gb": [
+        256,
+        512
+      ],
+      "memory_variants": [
+        {
+          "storage_gb": 256,
+          "ram_gb": 12
+        },
+        {
+          "storage_gb": 512,
+          "ram_gb": 12
+        },
+        {
+          "storage_gb": 512,
+          "ram_gb": 16
+        }
+      ],
+      "memory_raw": "256GB 12GB RAM, 512GB 12GB RAM, 512GB 16GB RAM",
+      "battery_mah": 6500,
+      "battery_raw": "Market-dependent versions: · Si/C Li-Ion 6500 mAh (Global) · Si/C Li-Ion 5300 mAh (Austria only)",
+      "charging": "90W wired, 100% in 57 min Reverse wired",
+      "main_camera": "50 MP, f/1.9, 23mm (wide), 1/1.56\", 1.0µm, PDAF 50 MP, f/2.7, 70mm (periscope telephoto), 1/1.95\", 0.8µm, multi-directional PDAF (55cm - ∞), OIS, 3x optical zoom 8 MP, f/2.0, 15mm (ultrawide), 1/4.0\", 1.12µm",
+      "main_camera_setup": "Triple",
+      "selfie_camera": "50 MP, f/2.0, 20mm (wide), 1/2.76\", 0.64µm, PDAF",
+      "weight_g": 186,
+      "weight_raw": "186 g (6.56 oz)",
+      "dimensions": "150.8 x 71.8 x 8 mm (5.94 x 2.83 x 0.31 in)",
+      "prices": [],
+      "prices_note": "No confirmed official US retail launch; no verified USD launch price. Launched Jun-Jul 2025 in India/Europe (from ₹54,999 / about €799); US prices in listings conflict ($537-$759) and are imports/estimates.",
+      "price_source_url": null,
+      "gsmarena_price_listed": "About 540 EUR",
+      "review": {
+        "source": "GSMArena",
+        "url": "https://www.gsmarena.com/vivo_x200_fe-review-2850.php",
+        "summary": "The ever-expanding vivo high-end lineup has gotten a new member - the vivo X200 FE. The FE might sound like a certain other brand's Fan Edition, but vivo's meaning may be rooted elsewhere."
+      },
+      "specs_source_url": "https://www.gsmarena.com/vivo_x200_fe_5g-13847.php",
+      "verified_at": "2026-11-18"
     },
     {
       "id": "vivo_x200_pro-13410",
@@ -3061,6 +3759,75 @@
       },
       "specs_source_url": "https://www.gsmarena.com/xiaomi_redmi_note_13_pro-12581.php",
       "verified_at": "2026-11-17"
+    },
+    {
+      "id": "xiaomi_redmi_note_14_pro-13355",
+      "slug": "xiaomi_redmi_note_14_pro-13355",
+      "brand": "Xiaomi",
+      "name": "Xiaomi Redmi Note 14 Pro",
+      "release": {
+        "announced": "2024, September 26",
+        "released": "Available. Released 2024, September 26",
+        "release_year": 2024,
+        "release_month": "September"
+      },
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-14-pro-5g.jpg",
+      "display": {
+        "size_inches": 6.67,
+        "size_raw": "6.67 inches, 107.4 cm 2 (~88.9% screen-to-body ratio)",
+        "type": "AMOLED, 68B colors, 120Hz, HDR10+, Dolby Vision, 3000 nits (peak)",
+        "refresh_rate_hz": 120,
+        "resolution": "1220 x 2712 pixels, 20:9 ratio (~446 ppi density)",
+        "protection": "Corning Gorilla Glass Victus 2"
+      },
+      "chipset": "Mediatek Dimensity 7300 Ultra (4 nm)",
+      "cpu": "Octa-core (4x2.5 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+      "gpu": "Mali-G615 MC2",
+      "os": "Android 14, up to 3 major OS updates, HyperOS",
+      "ram_options_gb": [
+        8,
+        12
+      ],
+      "storage_options_gb": [
+        128,
+        256,
+        512
+      ],
+      "memory_variants": [
+        {
+          "storage_gb": 128,
+          "ram_gb": 8
+        },
+        {
+          "storage_gb": 256,
+          "ram_gb": 8
+        },
+        {
+          "storage_gb": 256,
+          "ram_gb": 12
+        },
+        {
+          "storage_gb": 512,
+          "ram_gb": 12
+        }
+      ],
+      "memory_raw": "128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM, 512GB 12GB RAM",
+      "battery_mah": 5500,
+      "battery_raw": "Si/C Li-Ion 5500 mAh",
+      "charging": "45W wired, PD3.0",
+      "main_camera": "50 MP, f/1.5, 26mm (wide), 1/1.96\", 0.8µm, PDAF, OIS 8 MP, f/2.2,  15mm, 120˚ (ultrawide), 1/4.0\", 1.12µm 2 MP (macro)",
+      "main_camera_setup": "Triple",
+      "selfie_camera": "20 MP, f/2.2, 25mm (wide), 1/4.0\", 0.7µm",
+      "weight_g": 190,
+      "weight_raw": "190 g (6.70 oz)",
+      "dimensions": "162.3 x 74.4 x 8.2 mm or 8.5 mm",
+      "prices": [],
+      "prices_note": "Not officially sold in the US; no verified USD launch price. Xiaomi Global suggested USD 399 for the global Pro 5G variant, but the GSMArena page used here is the Sep 2024 model — do not present $399 as its US launch price.",
+      "price_source_url": null,
+      "gsmarena_price_listed": "About 440 EUR",
+      "review": null,
+      "specs_source_url": "https://www.gsmarena.com/xiaomi_redmi_note_14_pro-13355.php",
+      "verified_at": "2026-11-18"
     }
   ]
 }

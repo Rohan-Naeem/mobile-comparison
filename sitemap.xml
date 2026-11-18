@@ -8,6 +8,7 @@
   <url><loc>https://mobile-comparison.vercel.app/phones/apple-iphone-16.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/apple-iphone-16-pro.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/apple-iphone-16-pro-max.html</loc></url>
+  <url><loc>https://mobile-comparison.vercel.app/phones/apple-iphone-16e.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/apple-iphone-17.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/apple-iphone-17-pro.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/apple-iphone-17-pro-max.html</loc></url>
@@ -17,17 +18,22 @@
   <url><loc>https://mobile-comparison.vercel.app/phones/google-pixel-8a.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/google-pixel-9.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/google-pixel-9-pro.html</loc></url>
+  <url><loc>https://mobile-comparison.vercel.app/phones/google-pixel-9a.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/huawei-pura-70-ultra.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/motorola-edge-50.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/motorola-edge-50-ultra.html</loc></url>
+  <url><loc>https://mobile-comparison.vercel.app/phones/motorola-edge-60.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/nothing-phone-2.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/nothing-phone-3.html</loc></url>
+  <url><loc>https://mobile-comparison.vercel.app/phones/nothing-phone-3a.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/oneplus-12.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/oneplus-13.html</loc></url>
+  <url><loc>https://mobile-comparison.vercel.app/phones/oneplus-13r.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/oppo-find-x8.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/oppo-find-x8-pro.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/realme-gt-7.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/realme-gt-7-pro.html</loc></url>
+  <url><loc>https://mobile-comparison.vercel.app/phones/samsung-galaxy-a36.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/samsung-galaxy-a55.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/samsung-galaxy-a56.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/samsung-galaxy-s23.html</loc></url>
@@ -35,13 +41,17 @@
   <url><loc>https://mobile-comparison.vercel.app/phones/samsung-galaxy-s24.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/samsung-galaxy-s24-ultra.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/samsung-galaxy-s25.html</loc></url>
+  <url><loc>https://mobile-comparison.vercel.app/phones/samsung-galaxy-s25-fe.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/samsung-galaxy-s25-ultra.html</loc></url>
+  <url><loc>https://mobile-comparison.vercel.app/phones/samsung-galaxy-z-fold-7.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/sony-xperia-1-vi.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/vivo-x200.html</loc></url>
+  <url><loc>https://mobile-comparison.vercel.app/phones/vivo-x200-fe.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/vivo-x200-pro.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/xiaomi-15.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/xiaomi-15-ultra.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/phones/xiaomi-redmi-note-13-pro.html</loc></url>
+  <url><loc>https://mobile-comparison.vercel.app/phones/xiaomi-redmi-note-14-pro.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/brands/apple.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/brands/google.html</loc></url>
   <url><loc>https://mobile-comparison.vercel.app/brands/huawei.html</loc></url>
