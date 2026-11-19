@@ -2,7 +2,7 @@
 
 > Compare phones side by side: real specs, prices by storage and linked expert reviews for 40 phones from 12 brands.
 
-- [Phone Comparison](https://mobile-comparison.vercel.app/): homepage, compare 2 or 3 phones
-- [All brands](https://mobile-comparison.vercel.app/brands/)
-- [iPhone vs Samsung](https://mobile-comparison.vercel.app/compare/iphone-vs-samsung.html)
-- [iPhone vs Android](https://mobile-comparison.vercel.app/compare/iphone-vs-android.html)
+- [Phone Comparison](https://mobile-comparison-three.vercel.app/): homepage, compare 2 or 3 phones
+- [All brands](https://mobile-comparison-three.vercel.app/brands/)
+- [iPhone vs Samsung](https://mobile-comparison-three.vercel.app/compare/iphone-vs-samsung.html)
+- [iPhone vs Android](https://mobile-comparison-three.vercel.app/compare/iphone-vs-android.html)
